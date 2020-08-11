@@ -1,0 +1,140 @@
+/***** Navbar Start *****/
+body{
+    background-color: white;
+    font-family: 'oxygen' sans-serif;
+}
+#header-nav{
+    border-radius: 0;
+	border:0;
+	border: 2px solid black;
+	background-color: grey;
+}
+#navbar-brand h1{
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 3em;
+    margin-right: 20px;
+    margin-top:13px;
+    margin-bottom:13px;
+}
+#navbar-brand a:hover, .navbar-brand a:focus{
+    text-decoration: none;
+}
+.navbar-header button.navbar-toggle, .navbar-header .icon-bar{
+    border:1.2px solid black;
+}
+.navbar-header button.navbar-toggle{
+    clear: both;
+    margin-top: -60px;
+}
+#nav-list a{
+    text-align: center;
+    color: black;
+}
+/***** Navbar End *****/
+
+/***** our menu start *****/
+#main-content h1{
+    font-size:2.9em;
+    font-family: arial;
+    text-align: center;
+}
+#main-content .jumbotron {
+    background-color: grey;
+    border:1px solid black;
+    border-radius: 0;
+    width:130%;
+}
+#main-content .jumbotron p{
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+#main-content .jumbotron a{
+    font-size: 20px;
+    font-family: Arial;
+    color: white;
+    float: right;
+}
+ .heading{
+    font-size: 30px;
+    text-align: center;
+    margin-top: -20px;
+    color: black;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+/***** our menu end *****/
+
+
+
+
+
+
+
+/***** Responsiveness *****/
+
+/***** Larger device only *****/
+@media(max-width:1200px){
+    #navbar-brand h1{
+        font-size: 3em;
+        margin-left: 0px;
+    }
+    #main-content .jumbotron {
+        max-width:103%;
+    }
+}
+
+/***** Medium device only *****/
+@media(min-width:992px) and (min-width:1199px){
+    #navbar-brand h1{
+        font-size: 3em;
+        margin-left: 0px;
+    }
+    #main-content .jumbotron {
+        max-width:200%;
+    }
+    #main-content .jumbotron {
+        border-radius: 0;
+        width:100%;
+    }
+
+}
+
+/***** Small device only *****/
+@media(min-width:768px) and (max-width:991px){
+    #navbar-brand h1{
+        font-size: 3em;
+        margin-left: 0px;
+    }
+    #main-content .jumbotron {
+        border-radius: 0;
+        width:100%;
+    }
+
+}
+/***** Extra small device only *****/
+@media(max-width:767px){
+
+    #navbar-brand h1{
+        padding-top: 5px;
+        font-size: 2.8em;
+        margin-left: 40px;
+        padding-bottom: 2px;
+    }
+    #collapsable-nav a{
+        font-size: 1.2em;
+        font-family: sans-serif;
+        border-top: 2.6px solid black;
+        margin-top: -7.9px;
+        padding: 3px;
+    }
+    #collapsable-nav{
+        background-color: white;
+    }
+    #main-content .jumbotron {
+        border-radius: 0;
+        width:100%;
+    }
+  
+}
+
