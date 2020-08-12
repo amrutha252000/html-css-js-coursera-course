@@ -13,15 +13,16 @@ $(function () { // Same as document.addEventListener("DOMContentLoaded"...
 
 var dc = {};
 
-var homeHtmlUrl = "https://arpitha4.github.io/Assignment/home-snippet.html";
+
+var homeHtmlUrl = "https://amrutha252000.github.io/html-css-js-coursera-course/mod5-assignment/snippets/home-snippet.html";
 var allCategoriesUrl =
   "https://davids-restaurant.herokuapp.com/categories.json";
-var categoriesTitleHtml = "snippets/categories-title-snippet.html";
-var categoryHtml = "snippets/category-snippet.html";
+var categoriesTitleHtml = "https://amrutha252000.github.io/html-css-js-coursera-course/mod5-assignment/snippets/categories-title-snippet.html";
+var categoryHtml = "https://amrutha252000.github.io/html-css-js-coursera-course/mod5-assignment/snippets/category-snippet.html";
 var menuItemsUrl =
   "https://davids-restaurant.herokuapp.com/menu_items.json?category=";
-var menuItemsTitleHtml = "snippets/menu-items-title.html";
-var menuItemHtml = "snippets/menu-item.html";
+var menuItemsTitleHtml = "https://amrutha252000.github.io/html-css-js-coursera-course/mod5-assignment/snippets/menu-items-title.html";
+var menuItemHtml = "https://amrutha252000.github.io/html-css-js-coursera-course/mod5-assignment/snippets/menu-item.html";
 
 // Convenience function for inserting innerHTML for 'select'
 var insertHtml = function (selector, html) {
